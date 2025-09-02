@@ -1,0 +1,1 @@
+export default function Footer(){ return (<footer className="py-6 text-center text-sm text-gray-600 dark:text-gray-400"><div className="max-w-6xl mx-auto px-4">© Arun Lama — Data Analyst.</div></footer>)}

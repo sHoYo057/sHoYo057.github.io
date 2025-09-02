@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root { --accent: #2545a8; --muted: #6b7280; }
+html { scroll-behavior: smooth; }
+body { @apply bg-gray-50 text-gray-900 antialiased; }
+.dark body { @apply bg-gray-900 text-gray-100; }
+
+.card-anim { transform: translateY(6px); opacity: 0; animation: fadeUp 520ms ease forwards; }
+@keyframes fadeUp { to { transform: translateY(0); opacity: 1; } }
