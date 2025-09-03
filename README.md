@@ -15,4 +15,3 @@ It showcases my projects, skills, and resume — designed to be recruiter-friend
 ---
 
 ## 📂 Project Structure
-npm
